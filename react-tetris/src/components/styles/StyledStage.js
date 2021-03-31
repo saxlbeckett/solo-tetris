@@ -6,7 +6,7 @@ export const StyledStage = styled.div`
     ${props => props.height},
     calc(25vw / ${props => props.width})
   );
-  grid-template-columns: repeat(${props => props.width}, 1fr);
+  grid-template-columns: repeat(${props => props.width}, 2rem);
   grid-gap: 1px;
   border: 2px;
   background: #111;
